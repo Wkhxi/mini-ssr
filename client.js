@@ -11,4 +11,4 @@ import { hydrateRoot } from "react-dom/client";
 // const root = createRoot(document.getElementById("root"));
 // root.render(<App />);
 
-hydrateRoot(document.getElementById("root"), <App />);
+hydrateRoot(document.getElementById("root"), <App {...window.__DATA__} />);

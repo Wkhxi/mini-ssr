@@ -112,3 +112,13 @@ hydrateRoot(document.getElementById('root'), <App />);
 
 
 ```
+
+##### 7.优化 实现 getServerSideProps
+
+```
+import 该文件，获取导出的 getServerSideProps 函数。
+
+然后在 服务端调用！！！ 该函数 得到 getServerSideProps 返回的数据，最后将返回的数据传入到组件中。
+
+
+```
